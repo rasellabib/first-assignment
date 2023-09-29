@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(143, 126, 126);
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo{
+  
+    height: 45px;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+
+.nav-item-container{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+
+}
+
+.nav-manu-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+.nav-manu-link:hover{
+    color: aqua;
+}
+
+/* bennnar */
+.bennar{
+   height:300px;
+   width: 100%;
+   background-image: url(./assets/IMG_1936\ 1.png);
+   position: relative;
+}
+
+.bennar-in-text{
+    height: auto;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+
+}
+.bennar-execom{
+    margin: 0;
+}
+
+.box{
+    height:60px;
+    width:100%;
+    background-color: green;
+}
