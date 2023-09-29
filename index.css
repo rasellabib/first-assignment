@@ -36,9 +36,11 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: all 1s;
+   
 }
 .nav-manu-link:hover{
     color: aqua;
+    text-decoration: underline;
 }
 
 /* bennnar */
@@ -62,8 +64,81 @@ body{
     margin: 0;
 }
 
+.div-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .box{
     height:60px;
-    width:100%;
+    width: 250px;
     background-color: green;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.box-text-1{
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    /* margin-top: 20px; */
+}
+
+.box-text-2{
+   color: aliceblue;
+   text-align: center;
+   margin: 0;
+   font-size: small;
+}
+
+/* ===item-img=== */
+
+.item-div{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+}
+
+.item-div-img{
+    height: 250px;
+    width: 160px;
+    margin: 30px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 5px;
+    box-shadow:2px 2px 10px rgb(113, 106, 106);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.item-img{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+
+.item-div-text-1{
+  color: rgb(89, 145, 194);
+   text-align: center;
+   
+   margin-top: 250px;
+   font-size: small;
 }
