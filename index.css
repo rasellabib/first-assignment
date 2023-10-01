@@ -48,7 +48,6 @@ body{
    height:300px;
    width: 100%;
    background-image: url(./assets/IMG_1936\ 1.png);
-   position: relative;
 }
 
 .bennar-in-text{
@@ -56,9 +55,6 @@ body{
     width: 150px;
     background-color: black;
     color: aliceblue;
-    display: flex;
-    position: absolute;
-
 }
 .bennar-execom{
     margin: 0;
@@ -102,25 +98,22 @@ body{
     height: 700px;
     width: 100%;
     display: flex;
+    gap: 50px;
     justify-content:center;
     align-content: center;
     flex-flow: row wrap;
     box-sizing: border-box;
-    margin-top: 20px;
     
 }
 
 .item-div-img{
     height: 250px;
     width: 160px;
-    margin: 30px;
-    margin-bottom: 50px;
     background-size: cover;
     background-color: rgb(255, 255, 255);
     position: relative;
     border-radius: 5px;
     box-shadow:2px 2px 10px rgb(239, 234, 234);
-    display: flex;
     justify-content: center;
     align-items: last baseline;
 }
@@ -128,19 +121,14 @@ body{
 .item-img{
     height: 80%;
     width: 100%;
-    position: absolute;
-    background-size: cover;
-    left: 0;
-    top: 0;
     border-radius: 5px;
 }
 
 .item-div-text-1{
   color: rgb(89, 145, 194);
    text-align: center;
+   margin: 0;
    
-   margin-top: 250px;
-   font-size: small;
 }
 
 /* ==footer== */
